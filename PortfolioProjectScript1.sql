@@ -140,11 +140,11 @@ Create View GlobalDeathNumbers AS
 Select date, SUM(new_cases) AS TotalCases, SUM(CAST(new_deaths as INT)) AS TotalDeaths, SUM(CAST(new_deaths AS INT))/SUM(new_cases) * 100 AS Deaths_percentage
 From PortfolioProject..CovidDeaths
 Where continent is not null
-Group by date
+Group by date;
 
 Create View CountryDeathCount AS
 Select location, MAX(CAST(total_deaths as int)) AS TotalDeathCount
 FROM PortfolioProject..CovidDeaths
 WHERE continent is not null
-Group by location
+Group by location;
 
