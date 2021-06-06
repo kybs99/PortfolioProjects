@@ -1,6 +1,6 @@
 # PortfolioProjects
 
-First script was from a guided project from the YouTuber Alex the Analyst, second was me looking at the other data from the data set
+PortfolioProjectScript1/2 are exploratory data analysis in SQL of COVID data from https://ourworldindata.org/covid-deaths. The first script is from a guided project from the Youtuber Alex the Analyst while the second was me exploring data from other parts of the dataset. 
 
-Data comes from https://ourworldindata.org/covid-deaths
+The PortfolioProjectScriptCleaningData1 is cleaning up data of Nashville housing.
 
